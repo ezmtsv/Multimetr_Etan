@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogCustom</item> <!-- Добавляем созданный ниже стиль для диалога-->
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>                    <!-- задает цвет кнопок диалога-->
+    </style>
+
+<!--
+По умолчанию, диалоговые окна на Lollipop-устройствах будут выглядеть в стиле Material Design.
+Но если вы хотите немного изменить внешний вид, то можно применить стили и темы к ним. Создайте отдельный стиль:
+
+<style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog">
+    <item name="colorAccent">@color/primary</item>
+</style>
+Добавьте созданный стиль к теме.
+
+
+<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@color/primary</item>
+    <item name="colorPrimaryDark">@color/primary_dark</item>
+    <item name="colorAccent">@color/accent</item>
+    <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
+</style>
+Также можно создать отдельный стиль для негативной кнопки, чтобы она была красной и отличалась от позитивной кнопки.
+
+
+<style name="AlertDialogCustom.Destructive">
+    <item name="android:buttonBarPositiveButtonStyle">@style/DestructiveButton</item>
+</style>
+
+<style name="DestructiveButton"
+        parent="android:Widget.DeviceDefault.Button.Borderless">
+    <item name="android:textColor">@color/red</item>
+</style>
+Затем в коде используете созданный стиль.
+
+
+AlertDialog alertDialog = new AlertDialog.Builder(
+        getActivity(),
+        R.style.AlertDialogCustom_Destructive)
+        .setPositiveButton(R.string.button_delete, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                // Delete Action
+            }
+        })
+        .setNegativeButton(R.string.button_cancel, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                 // Cancel Action
+            }
+        })
+        .setTitle(R.string.title_delete_item)
+        .create();
+-->
+
+</resources>

@@ -1,0 +1,50 @@
+Applications Memory Usage (kB):
+Uptime: 159067310 Realtime: 369471887
+
+** MEMINFO in pid 10559 [com.evan.etan_mult] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     7011     6972        0    25308    37056    34541     2514
+  Dalvik Heap     2502     2464        0      232   164361   162330     2031
+ Dalvik Other   145284   145248        0    13036                           
+        Stack      364      364        0        4                           
+       Ashmem       23        0        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap      997      112      352     3596                           
+    .apk mmap      199        0       44        0                           
+    .ttf mmap      424        0        0        0                           
+    .dex mmap     2545     2496       48        4                           
+    .oat mmap     1266        0      332        0                           
+    .art mmap     1270      860       60      136                           
+   Other mmap      209        8        0        0                           
+   EGL mtrack    16609    16609        0        0                           
+    GL mtrack    18480    18480        0        0                           
+      Unknown      156      156        0      168                           
+        TOTAL   197343   193769      840    42484   201417   196871     4545
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     3384
+         Native Heap:     6972
+                Code:     3384
+               Stack:      364
+            Graphics:    35089
+       Private Other:   145416
+              System:     2734
+ 
+               TOTAL:   197343      TOTAL SWAP (KB):    42484
+ 
+ Objects
+               Views:       22         ViewRootImpl:        1
+         AppContexts:        2           Activities:        1
+              Assets:        4        AssetManagers:        2
+       Local Binders:       10        Proxy Binders:       14
+       Parcel memory:        5         Parcel count:       23
+    Death Recipients:        0      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 

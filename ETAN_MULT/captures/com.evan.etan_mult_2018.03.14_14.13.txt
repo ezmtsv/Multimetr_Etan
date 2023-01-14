@@ -1,0 +1,56 @@
+TASK com.evan.etan_mult id=2614
+  ACTIVITY com.evan.etan_mult/.MainActivity e0bad0d pid=10559
+    Local Activity eecc751 State:
+      mResumed=true mStopped=false mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 250mcc99mnc ru_RU ldltr sw360dp w640dp h336dp 480dpi nrml long land finger -keyb/v/h -nav/h s.149 THEMEUIFont(,)}
+      mLoadersStarted=true
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@a74322d
+        mContainer=android.app.Activity$HostCallbacks@a74322d
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=159101810 (719 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{62290b7 V.E...... R....... 0,0-1920,1080}
+        android.widget.LinearLayout{ac58153 V.E...... ........ 0,0-1920,1080}
+          android.view.ViewStub{cb18a90 G.E...... ......I. 0,0-0,0 #10203b1 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{b300f89 V.E...... ........ 0,0-1920,1080}
+            android.support.v7.widget.FitWindowsLinearLayout{7811b45 V.E...... ........ 0,0-1920,1080 #7f0c0059 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{4a5d29a G.E...... ......I. 0,0-0,0 #7f0c005a app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{6041ba8 V.E...... ........ 0,0-1920,1080 #1020002 android:id/content}
+                android.widget.LinearLayout{47e7e66 V.E...... ........ 0,0-1920,1080}
+                  android.widget.LinearLayout{d4315a7 V.E...... ........ 0,0-1920,1080 #7f0c006d app:id/main_lay}
+                    android.widget.AbsoluteLayout{1146dfd V.E...... ........ 0,0-640,1080 #7f0c006e app:id/main_lay1}
+                      android.support.v7.widget.AppCompatImageView{de41af2 V.ED..... ........ 0,0-640,117 #7f0c006f app:id/but_cur}
+                      android.support.v7.widget.AppCompatImageView{3816543 V.ED..... ........ 0,0-640,117 #7f0c0070 app:id/but_vol}
+                      android.support.v7.widget.AppCompatImageView{fc4b7c0 V.ED..... ........ 0,0-640,117 #7f0c0071 app:id/but_res}
+                      android.support.v7.widget.AppCompatImageView{53eecf9 V.ED..... ........ 0,0-640,117 #7f0c0072 app:id/but_ind}
+                      android.support.v7.widget.AppCompatImageView{994f43e V.ED..... ........ 0,0-640,117 #7f0c0073 app:id/but_cap}
+                      android.support.v7.widget.AppCompatImageView{ccb129f V.ED..... ........ 0,0-640,117 #7f0c0074 app:id/but_freq}
+                    android.widget.AbsoluteLayout{81d8fec V.E...... ........ 640,0-1280,1080 #7f0c0075 app:id/main_lay2}
+                      android.widget.LinearLayout{2f85fb5 V.E...... ........ 0,0-640,1080 #7f0c0076 app:id/main_lay4}
+                        android.widget.AbsoluteLayout{be8164a V.E...... ........ 0,0-320,1080 #7f0c0077 app:id/main_lay5}
+                        android.widget.AbsoluteLayout{fd839bb V.E...... ........ 320,0-640,1080 #7f0c0078 app:id/main_lay6}
+                    android.widget.AbsoluteLayout{249bed8 V.E...... ........ 1280,0-1920,1080 #7f0c0079 app:id/main_lay3}
+                      android.support.v7.widget.AppCompatTextView{49c4231 V.ED..... ........ 0,0-640,57 #7f0c007a app:id/txt_time}
+    Looper (main, tid 1) {6914362}
+      (Total messages: 0, polling=false, quitting=false)
+    Local FragmentActivity eecc751 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@e2dbcf3
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@e2dbcf3
+      mCurState=5 mStateSaved=false mDestroyed=false
